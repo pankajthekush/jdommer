@@ -5,6 +5,6 @@ setup(name='jdommer',
       description='snooper the websites',
       author='Pankaj Kumar',
       packages=['jdommer'],
-      install_requires=['browsermob-proxy==0.8.0','Flask==1.1.2','psycopg2-binary==2.8.5','waitress==1.4.4'],
+      install_requires=['browsermob-proxy==0.8.0','Flask==1.1.2','psycopg2-binary==2.8.5','waitress==2.1.1'],
       entry_points ={'console_scripts': ['jsdom = jdommer.app:runsnooper']}
      )
